@@ -4,3 +4,4 @@ version=15.1beta1-1
 versionCode=151
 author=Rocket Aaron
 description=Noto Emoji with extended Blob support
+updateJson=https://cdn.jsdelivr.net/gh/rocka/magisk-blobmoji/update.json

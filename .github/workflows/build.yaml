@@ -1,0 +1,33 @@
+name: Build Magisk Module
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Fetch source code
+        uses: actions/checkout@v4
+
+      - name: Build Magisk module
+        run: |
+          ./build.sh
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: magisk-blobmoji
+          path: '*.zip'
+
+      - name: Publish release
+        uses: ncipollo/release-action@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          artifacts: '*.zip'
+
