@@ -2,10 +2,10 @@
 
 set -euxo pipefail
 
-REPO='https://github.com/C1710/blobmoji'
-TAG='v15.1-beta1'
-URL="${REPO}/releases/download/${TAG}/Blobmoji.ttf"
-SHA256='61b588efe9960443a89de442feeab863744dea9dd169cba08c66762eb4d6952b'
+REPO='https://github.com/DavidBerdik/blobmoji2'
+TAG='blobmoji-16r3'
+URL="${REPO}/releases/download/${TAG}/NotoColorEmoji.ttf"
+SHA256='3f447e443c6114ca877d324061f3f31e696b14c5d3cef2c63b00a818bc63a58a'
 OUT_DIR='system/fonts'
 OUT_FILE="${OUT_DIR}/NotoColorEmoji.ttf"
 

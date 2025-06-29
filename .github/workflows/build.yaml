@@ -23,11 +23,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: magisk-blobmoji
-          path: '*.zip'
+          path: |
+            magisk-blobmoji-*.zip
+            update.json
 
       - name: Publish release
         uses: ncipollo/release-action@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          artifacts: '*.zip'
+          artifacts: "magisk-blobmoji-*.zip,update.json"
 
