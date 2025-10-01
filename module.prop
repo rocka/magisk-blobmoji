@@ -1,7 +1,7 @@
 id=magisk-blobmoji
 name=Magisk Blobmoji
-version=16.0r3-1
-versionCode=160
+version=17.0r1-1
+versionCode=170
 author=Rocket Aaron
 description=Noto Emoji with extended Blob support
 updateJson=https://github.com/rocka/magisk-blobmoji/releases/latest/download/update.json

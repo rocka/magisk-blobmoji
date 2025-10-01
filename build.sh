@@ -3,9 +3,9 @@
 set -euxo pipefail
 
 REPO='https://github.com/DavidBerdik/blobmoji2'
-TAG='blobmoji-16r3'
+TAG='blobmoji-17r1'
 URL="${REPO}/releases/download/${TAG}/NotoColorEmoji.ttf"
-SHA256='3f447e443c6114ca877d324061f3f31e696b14c5d3cef2c63b00a818bc63a58a'
+SHA256='ffc75f156f65027d61ea976b7ef6327641403913c89812371a3d064fd15c67f2'
 OUT_DIR='system/fonts'
 OUT_FILE="${OUT_DIR}/NotoColorEmoji.ttf"
 

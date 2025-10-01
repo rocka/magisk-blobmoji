@@ -1,6 +1,6 @@
 {
-    "version": "16.0r3-1",
-    "versionCode": 160,
-    "zipUrl": "https://github.com/rocka/magisk-blobmoji/releases/download/16.0r3-1/magisk-blobmoji-16.0r3-1.zip",
+    "version": "17.0r1-1",
+    "versionCode": 170,
+    "zipUrl": "https://github.com/rocka/magisk-blobmoji/releases/download/17.0r1-1/magisk-blobmoji-17.0r1-1.zip",
     "changelog": "https://github.com/rocka/magisk-blobmoji/raw/master/README.md"
 }
